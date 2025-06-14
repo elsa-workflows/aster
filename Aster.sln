@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{34F80440-0ECD-4AC5-B191-0023429E49D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Host", "Host", "{D7B3D7F0-5065-48E5-8DB5-7A2150B94E98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aster.Host", "src\Host\Aster.Host\Aster.Host.csproj", "{0860C17A-D113-4A51-A9C0-67E06913F437}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{FF7A09FF-5213-4789-B438-D4B59BEEBC45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aster.Core", "src\Core\Aster.Core\Aster.Core.csproj", "{8619905C-D1A1-42A4-8481-010FE73E5D24}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{FD45E2F0-B715-4E7D-9413-9B99BF403271}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aster.Tests", "src\Tests\Aster.Tests\Aster.Tests.csproj", "{886FC6C0-50B1-4657-B648-75EFC9CA854D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0860C17A-D113-4A51-A9C0-67E06913F437}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0860C17A-D113-4A51-A9C0-67E06913F437}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0860C17A-D113-4A51-A9C0-67E06913F437}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0860C17A-D113-4A51-A9C0-67E06913F437}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8619905C-D1A1-42A4-8481-010FE73E5D24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8619905C-D1A1-42A4-8481-010FE73E5D24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8619905C-D1A1-42A4-8481-010FE73E5D24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8619905C-D1A1-42A4-8481-010FE73E5D24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{886FC6C0-50B1-4657-B648-75EFC9CA854D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{886FC6C0-50B1-4657-B648-75EFC9CA854D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{886FC6C0-50B1-4657-B648-75EFC9CA854D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{886FC6C0-50B1-4657-B648-75EFC9CA854D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D7B3D7F0-5065-48E5-8DB5-7A2150B94E98} = {34F80440-0ECD-4AC5-B191-0023429E49D7}
+		{0860C17A-D113-4A51-A9C0-67E06913F437} = {D7B3D7F0-5065-48E5-8DB5-7A2150B94E98}
+		{FF7A09FF-5213-4789-B438-D4B59BEEBC45} = {34F80440-0ECD-4AC5-B191-0023429E49D7}
+		{8619905C-D1A1-42A4-8481-010FE73E5D24} = {FF7A09FF-5213-4789-B438-D4B59BEEBC45}
+		{FD45E2F0-B715-4E7D-9413-9B99BF403271} = {34F80440-0ECD-4AC5-B191-0023429E49D7}
+		{886FC6C0-50B1-4657-B648-75EFC9CA854D} = {FD45E2F0-B715-4E7D-9413-9B99BF403271}
+	EndGlobalSection
+EndGlobal
