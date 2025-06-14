@@ -27,7 +27,7 @@ public class ShellTests
     [Fact]
     public void Blueprint_Registers_Feature_Services()
     {
-        var json = "{\"features\":[{\"name\":\"Test\",\"startup\":\"Aster.Tests.TestStartup, Aster.Tests\"}]}";
+        var json = "{\"features\":[{\"name\":\"Test\",\"startup\":\"Aster.Tests.ShellTests+TestStartup, Aster.Tests\"}]}";
         var blueprint = ShellBlueprint.FromJson(json);
         var services = new ServiceCollection();
         blueprint.ApplyServices(services);
